@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.sectionTop{
+    width:100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    background-color: #333;
+    position:fixed;
+}
+
+.box1{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #333;
+    border: 1px solid #333;
+    font-weight: 600;
+    color: white;
+}
+button:hover{
+    color: white;
+    background-color:gray;
+    cursor: pointer;
+}
+
+.sectionMain{
+    width:100%;
+    height:100vh;
+    display: flex;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    flex-direction: column;
+    justify-content:center;
+    background-color: #252529;   
+}
+.title{
+    text-align:center;
+    color: white;
+    align-items: center;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+.subTitle{
+    text-align:center;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    align-items: center;
+}
+.subTitle2{
+    text-align:center;
+    color: white;
+    align-items: center;
+    padding-top:30px;
+    font-size: 22px;
+    line-height: 1.7;
+    align-items: center;
+    font-weight: 100;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.sectionMiddle{
+    width:100%;
+    height: 100%;
+    background-color: #252529;      
+}
+.middletitle{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.middletitle2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.middletitle3{
+    width: 90%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 0px 80px;
+    line-height: 1.6;
+}
+.trialNow{
+    background-color:#b90415;  
+    font-size: 18px;
+    padding:10px 10px;
+    margin-left: 42%;
+    margin-top: 15px;
+    font-weight: 100;
+    color: white;
+    border: 1px solid #b90415;
+    width:200px;
+    height: 60px;
+}
+.trialNow:hover{
+    background-color: #d3071b;   
+    border: 1px solid #d3071b;
+}
+.middletitle4{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+    margin: 0px 80px;
+    line-height: 1.8;    
+}
+.sectionmiddleend{
+    width:100%;
+    background-color:#f4f4f4;      
+}
+.heading1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight:bolder;
+    line-height: 1.5;
+}
+.heading2{
+    width: 90%;
+    text-align:center;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight:100 ;
+    line-height: 1.5;
+    margin:0px 70px;
+}
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.readmore{
+    text-align:center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight:100 ;
+    width: 120px;
+    height: 60px;
+    color: white;
+    background-color:#103063;
+    border:1px solid #103063;
+}
+.readmore:hover{
+    background-color: #143f85;
+    border:1px solid #143f85;
+}
+.imgsrc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin-top:20px;
+    width: 100%;   
+}
+.imgsrc img{
+    width: 90%;
+    }
+.sectionEnd{
+    width:100%;
+    height: 500px;
+    display: flex;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    flex-direction: column;
+    justify-content:center;
+    background-attachment: fixed;
+}
+.divheading{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.heading3{
+    text-align: center;
+    font-size:30px;
+    padding-bottom: 60px;
+    font-weight: 600;
+}
+.heading4{
+    width: 90%;
+    text-align: center;
+    font-size:25px;
+    padding-top: 20px;
+    font-weight: 200;
+    line-height: 1.6;
+}  
+.sectionlast{
+    width:100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    background-color:#f4f4f4;
+}
+.divleft{
+    width:50%;
+    height: 450px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 10px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divright{
+    width:50%;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.giftCards{
+    padding-top:60px;
+    font-size:30px;
+}
+.finalheading{
+    font-weight: 100;
+    padding-top:30px;
+}
+.final{
+    font-weight: 100;
+    padding-top:20px;
+
+}
+.border{
+    margin-top: 20px;
+    width: 90%;
+    height: 1px;
+    background-color:lightgray;
+}
+.redeembuttom{
+    width:10%;
+    height:20px;
+    font-size: 16px;
+    margin-top: 30px;
+    border:1px solid #f4f4f4;
+    background-color: #f4f4f4;
+    color:#103063;
+}
+.redeembuttom:hover{
+    background-color: #f4f4f4;
+    color: #103063;
+}
+.borderbuttom{
+    width:100%;
+    height:230px;
+    display: flex;
+    flex-direction: row;
+    background-color:#252529;
+    align-items: center;
+    color:white;
+    padding-left: 150px;
+
+}
+.box2{
+    padding-bottom: 50px;
+    width: 90%;
+    height: 150px;
+
+}   
+.first{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.border2{
+    width: 70%;
+    height: 1px;
+    border: .5px dotted gray;  
+}
+.second{
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 200;
+}
+.copyrightbox{
+    background-color: #333333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.copyright{
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 1.9;
+    
+}
